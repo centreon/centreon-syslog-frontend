@@ -24,8 +24,7 @@
 			</td>
 		</tr>		
 		<xsl:for-each select="//syslog">
-		<xsl:element name="tr">
-			
+			<xsl:element name="tr">
 				<xsl:attribute name="class"><xsl:value-of select="style" /></xsl:attribute>			 			
 				<td class="SyslogListColCenterNoWrap">
 					<xsl:value-of select="datetime"/>
@@ -37,9 +36,13 @@
 					<xsl:value-of select="facility"/>
 				</td>			
 				<xsl:element name="td">
-					<xsl:attribute name="style">white-space:nowrap</xsl:attribute>
-					<xsl:attribute name="class"><xsl:value-of select="prio_class" /></xsl:attribute>
-					<xsl:value-of select="severity"/>
+					<xsl:attribute name="align">center</xsl:attribute>
+					<xsl:element name="span">
+						<xsl:attribute name="class">
+							<xsl:value-of select="prio_class" />
+						</xsl:attribute>
+						<xsl:value-of select="severity"/>
+					</xsl:element>
 				</xsl:element>
 				<td class="SyslogListColCenterNoWrap">
 					<xsl:value-of select="program"/>

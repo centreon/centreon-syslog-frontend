@@ -46,11 +46,10 @@
         exit ();
 
     include ("@CENTREON_ETC@centreon.conf.php");
+	require_once ($centreon_path . "www/modules/centreon-syslog-frontend/include/common/header.php");
 
     global $cfg_syslog, $refresh_options;
 
-    $syslog_mod_path = $centreon_path . "www/modules/centreon-syslog-frontend/";
-    
     /*
      * Set language
      */
@@ -67,33 +66,32 @@
     $collectorList = getCollectorList();
     $init = 0;
 
-    /*
-     * Add ajax button and div
-     */
-    echo "<link href=\"./modules/centreon-syslog-frontend/css/syslog.css\" type=\"text/css\" rel=\"stylesheet\">";
-    echo "<table width=\"100%\">";
-    echo "  <tr class=\"list_two\" align=\"center\">";
-    echo "          <td class=\"ListColCenter\">";
-    echo "                  "._("Collector:")."&nbsp;&nbsp;&nbsp;";
-    echo "                  <select onChange=\"javascript:rebuild_page();\" name=\"collector_id\" id=\"collector_id\" >";
-    foreach ($collectorList as $key => $value) {
-    	if (($init == 0) && preg_match('/^$/', $value) == 0) {
-        	echo "				<option value=\"".$key."\" selected>".$value."</option>";
-        	$init++;
-        } else {
-        	echo "				<option value=\"".$key."\">".$value."</option>";
-        }
-    }
-    echo "					</select>";
-    echo "          </td>";
-    echo "          <td class=\"ListColCenter\">";
-    echo "                  "._("Refresh:")."&nbsp;&nbsp;&nbsp;<input onclick=\"javascript:ajax_handler(this.value)\" name=\"ajax\" id=\"ajaxBtn\" value=\""._("stop")."\" type=\"button\" />";
-    echo "          </td>";
-    echo "  </tr>";
-    echo "</table>";
-    echo "<div id=\"ajaxFilters\"></div>";
-    echo "<br>";
-    echo "<div id=\"ajaxLog\"></div>";
+	echo '<link href="./modules/centreon-syslog-frontend/css/syslog.css" type="text/css" rel="stylesheet">';
+	echo '<table class="ajaxOption table">';
+	echo '	<tr>';
+	echo '		<td>';
+	echo '			<b>'._("Collector").'</b>';
+	echo '			&nbsp;&nbsp;';
+	echo '			<select onChange="javascript:rebuild_page();" name="collector_id" id="collector_id" >';
+	foreach ($collectorList as $key => $value) {
+		if (($init == 0) && preg_match('/^$/', $value) == 0) {
+			echo '		<option value="'.$key.'" selected>'.$value.'</option>';
+			$init++;
+		} else {
+			echo '		<option value="'.$key.'">'.$value.'</option>';
+		}
+	}
+	echo '			</select>';
+	echo '		</td>';
+	echo '      <td>';
+	echo '			<b>'._("Refresh").'</b>';
+	echo '      	&nbsp;&nbsp;';
+	echo '			<input onclick="javascript:ajax_handler(this.value)" name="ajax" id="ajaxBtn" value="'._("stop").'" class="btc bt_default" type="button" />';
+	echo '      </td>';
+	echo '  </tr>';
+	echo '</table>';
+	echo '<div id="ajaxFilters"></div>';
+	echo '<div id="ajaxLog"></div>';
 ?>
 <script type="text/javascript">
 setTimeout('build_ajaxFilters()', 500);

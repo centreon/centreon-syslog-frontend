@@ -160,11 +160,11 @@
 
  	$style = "list_two";
 
- 	$priority_color = array ('debug' => 'sev_debug', 'info' => 'sev_info', 'notice' => 'sev_notice',
-		'warning' => 'sev_warning', 'warn' => 'sev_warning',
-		'error' => 'sev_error',	'err' => 'sev_error', 
-		'critical' => 'sev_critical', 'crit' => 'sev_critical', 
-		'alert' => 'sev_alert', 'emerg' => 'sev_emerg');
+ 	$priority_color = array ('debug' => 'badge badge_debug', 'info' => 'badge badge_info', 'notice' => 'badge badge_notice',
+		'warning' => 'badge badge_warning', 'warn' => 'badge badge_warning',
+		'error' => 'badge badge_error',	'err' => 'badge badge_error', 
+		'critical' => 'badge badge_critical', 'crit' => 'badge badge_critical', 
+		'alert' => 'badge badge_alert', 'emerg' => 'badge badge_emerg');
 
  	if ($DBRESULT->numRows() == 0) {
  		$buffer->startElement("error");
