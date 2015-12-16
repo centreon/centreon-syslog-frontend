@@ -1,4 +1,4 @@
-Syslog Module for Centreon 2.5.x
+Centreon Syslog Module for Centreon 2.x
 
 Customize your options in 'Configuration -> Syslog -> General -> Refresh' menu.
 
@@ -7,7 +7,7 @@ Add new Centreon syslog collector server using 'Configuration -> Syslog -> Colle
 If this is the first installation, please set "logs" in "Syslog Table Name" field for first day.
 The second day, you can set "all_logs" in "Syslog Table Name" field beause this table was created after first tables rotation.
 
-For more information please refer to https://forge.centreon.com/projects/centreon-syslog
+For more information please refer to https://github.com/centreon/centreon-syslog-frontend
 
 For documentation please refer to http://documentation.centreon.com
 
