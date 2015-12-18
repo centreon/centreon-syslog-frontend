@@ -44,22 +44,6 @@
 
 	include("./include/common/autoNumLimit.php");
 
-	# start quickSearch form
-	$advanced_search = 0;
-	include_once("./include/common/quickSearch.php");
-	# end quickSearch form
-
-	$SearchTool = NULL;
-	if (isset($search) && $search)
-		$SearchTool = " WHERE `collector_name` LIKE '%".htmlentities($search, ENT_QUOTES, "UTF-8")."%' ";
-
-	$DBRESULT = $pearDB->query("SELECT COUNT(*) FROM `mod_syslog_collector` $SearchTool");
-
-	$tmp = $DBRESULT->fetchRow();
-	$rows = $tmp["COUNT(*)"];
-
-	include("./include/common/checkPagination.php");
-
 	/*
 	 * Smarty template Init
 	 */
@@ -73,7 +57,6 @@
 	/*
 	 * start header menu
 	 */
-	$tpl->assign("headerMenu_icone", "<img src='./img/icones/16x16/pin_red.gif'>");
 	$tpl->assign("headerMenu_name", _("Name"));
 	$tpl->assign("headerMenu_db_address", _("Database Address"));
 	$tpl->assign("headerMenu_interface_type", _("Database Type"));
@@ -82,11 +65,10 @@
 	$tpl->assign("headerMenu_options", _("Options"));
 	
 	/*
-	 * Nagios list
+	 * Pollers list
 	 */
-	
-		
-	$rq = "SELECT `collector_id`, `collector_name`, `db_server_address`, `db_type`, `enable`, `comment` FROM `mod_syslog_collector` $SearchTool ORDER BY `collector_name` LIMIT ".$num * $limit.", ".$limit;
+	$rq = "SELECT `collector_id`, `collector_name`, `db_server_address`, `db_type`, `enable`, `comment` ".
+			"FROM `mod_syslog_collector` ORDER BY `collector_name` LIMIT ".$num * $limit.", ".$limit;
 	$DBRESULT = $pearDB->query($rq);
 
 	$form = new HTML_QuickForm('select_form', 'POST', "?p=".$p);
@@ -103,10 +85,11 @@
 	for ($i = 0; $config = $DBRESULT->fetchRow(); $i++) {		
 		$selectedElements = $form->addElement('checkbox', "select[".$config['collector_id']."]");	
 		$moptions = "";
-		if ($config["enable"] == 1)
-			$moptions .= "<a href='main.php?p=".$p."&id=".$config['collector_id']."&o=u&limit=".$limit."&num=".$num."&search=".$search."'><img src='img/icones/16x16/element_previous.gif' border='0' alt='"._("Disabled")."'></a>&nbsp;&nbsp;";
-		else
-			$moptions .= "<a href='main.php?p=".$p."&id=".$config['collector_id']."&o=s&limit=".$limit."&num=".$num."&search=".$search."'><img src='img/icones/16x16/element_next.gif' border='0' alt='"._("Enabled")."'></a>&nbsp;&nbsp;";
+		if ($config["enable"] == 1) {
+			$moptions .= "<a href='main.php?p=".$p."&id=".$config['collector_id']."&o=u&limit=".$limit."&num=".$num."'><img src='img/icones/16x16/element_previous.gif' border='0' alt='"._("Disabled")."'></a>&nbsp;&nbsp;";
+		} else {
+			$moptions .= "<a href='main.php?p=".$p."&id=".$config['collector_id']."&o=s&limit=".$limit."&num=".$num."'><img src='img/icones/16x16/element_next.gif' border='0' alt='"._("Enabled")."'></a>&nbsp;&nbsp;";
+		}
 		$moptions .= "&nbsp;<input onKeypress=\"if(event.keyCode > 31 && (event.keyCode < 45 || event.keyCode > 57)) event.returnValue = false; if(event.which > 31 && (event.which < 45 || event.which > 57)) return false;\" maxlength=\"3\" size=\"3\" value='1' style=\"margin-bottom:0px;\" name='dupNbr[".$config['collector_id']."]'></input>";
 		$elemArr[$i] = array("MenuClass"=>"list_".$style, 
 						"RowMenu_select"=>$selectedElements->toHtml(),

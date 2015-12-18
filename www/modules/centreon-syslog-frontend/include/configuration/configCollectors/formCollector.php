@@ -170,9 +170,9 @@
 		 * Just watch a Poller information
 		 */
 		if ($centreon->user->access->page($p) != 2) {
-			$form->addElement('button', 'change', _("Modify"), array("onClick"=>"javascript:window.location.href='?p=".$p."&o=c&id=".$id."'"));
+			$form->addElement('button', 'change', _("Modify"), array("class" => "btc bt_default", "onClick"=>"javascript:window.location.href='?p=".$p."&o=c&id=".$id."'"));
 			if (extension_loaded('ssh2')) {
-				$form->addElement('button', 'export',  _("Export configuration"), array( "id" => "ajaxBtn", "onClick" => "javascript:ajax_generate(".$id.");") );
+				$form->addElement('button', 'export',  _("Export configuration"), array("class" => "btc bt_success", "id" => "ajaxBtn", "onClick" => "javascript:ajax_generate(".$id.");") );
 			} else {
 				print ("<div class='ssh2' align='center'>");
 				print ("<br/>"._("Export button is hidden because SSH2 libraries for PHP was not installed."));
@@ -186,15 +186,15 @@
 		/*
 		 * Modify a Poller information
 		 */
-		$subC = $form->addElement('submit', 'submitC', _("Save"));
-		$res = $form->addElement('reset', 'reset', _("Reset"));
+		$subC = $form->addElement('submit', 'submitC', _("Save"), array("class" => "btc bt_success"));
+		$res = $form->addElement('reset', 'reset', _("Reset"), array("class" => "btc bt_default"));
 	    $form->setDefaults($cfg_poller);
 	} else if ($o == "a") {
 		/*
 		 * Add a Poller information
 		 */
-		$subA = $form->addElement('submit', 'submitA', _("Save"));
-		$res = $form->addElement('reset', 'reset', _("Reset"));
+		$subA = $form->addElement('submit', 'submitA', _("Save"), array("class" => "btc bt_success"));
+		$res = $form->addElement('reset', 'reset', _("Reset"), array("class" => "btc bt_default"));
 	}
 
 	$valid = false;

@@ -2,24 +2,24 @@
 <script type="text/javascript" src="./modules/centreon-syslog-frontend/include/common/javascript/exportConf.js"></script>
 {$form.javascript}
 <form {$form.attributes}>
-	<div>
-	<ul id="mainnav">
-		<li class="a" id='c1'><a href="#" onclick="javascript:displayTab('1');">{$sort1}</a></li>
-		<li class="b" id='c2'><a href="#" onclick="javascript:displayTab('2');">{$sort2}</a></li>
-		<li class="b" id='c3'><a href="#" onclick="javascript:displayTab('3');">{$sort3}</a></li>
-	</ul>
+	<div class="headerTabContainer">
+		<ul id="mainnav">
+			<li class="a" id='c1'><a href="#" onclick="javascript:displayTab('1');">{$sort1}</a></li>
+			<li class="b" id='c2'><a href="#" onclick="javascript:displayTab('2');">{$sort2}</a></li>
+			<li class="b" id='c3'><a href="#" onclick="javascript:displayTab('3');">{$sort3}</a></li>
+		</ul>
+		<div id="validFormTop">
+		{if $o == "a" || $o == "c"}
+			<p class="oreonbutton">{$form.submitC.html}{$form.submitA.html}&nbsp;&nbsp;&nbsp;{$form.reset.html}</p>
+		{else if $o == "w"}
+			<p class="oreonbutton">{$form.change.html}&nbsp;&nbsp;&nbsp;{$form.export.html}</p>
+		{/if}
+		</div>
 	</div>
-	<div id="validFormTop">
-	{if $o == "a" || $o == "c"}
-		<p class="oreonbutton">{$form.submitC.html}{$form.submitA.html}&nbsp;&nbsp;&nbsp;{$form.reset.html}</p>
-	{else if $o == "w"}
-		<p class="oreonbutton">{$form.change.html}&nbsp;&nbsp;&nbsp;{$form.export.html}</p>
-	{/if}
-	</div>
-	<div id='tab1' class='tab'>
-	 <table class="ListTable">
-	 	<tr class="ListHeader"><td class="FormHeader" colspan="2">&nbsp;<img src='./img/icones/16x16/text_code_colored.gif'>&nbsp;&nbsp;{$form.header.title}</td></tr>
-	 	<tr class="list_lvl_1"><td class="ListColLvl1_name" colspan="2"><img src='./img/icones/16x16/note.gif'>&nbsp;&nbsp;{$syslog_db_general}</td></tr>
+	<div id='tab1' class="tab">
+	 <table class="formTable table">
+	 	<tr class="ListHeader"><td class="FormHeader" colspan="2"><h3>|{$form.header.title}</h3></td></tr>
+	 	<tr class="list_lvl_1"><td class="ListColLvl1_name" colspan="2"><h4>{$syslog_db_general}</h4></td></tr>
 		<tr class="list_one"><td class="FormRowField">{$form.collector_name.label}</td><td class="FormRowValue">{$form.collector_name.html}</td></tr>
 		<tr class="list_two"><td class="FormRowField">{$form.db_server_address.label}</td><td class="FormRowValue">{$form.db_server_address.html}</td></tr>
 		<tr class="list_one"><td class="FormRowField">{$form.db_server_port.label}</td><td class="FormRowValue">{$form.db_server_port.html}</td></tr>
@@ -27,28 +27,28 @@
 		<tr class="list_one"><td class="FormRowField">{$form.db_name.label}</td><td class="FormRowValue">{$form.db_name.html}</td></tr>
 		<tr class="list_two"><td class="FormRowField">{$form.db_username.label}</td><td class="FormRowValue">{$form.db_username.html}</td></tr>
 		<tr class="list_one"><td class="FormRowField">{$form.db_password.label}</td><td class="FormRowValue">{$form.db_password.html}</td></tr>
-		<tr class="list_lvl_1"><td class="ListColLvl1_name" colspan="2"><img src='./img/icones/16x16/note.gif'>&nbsp;&nbsp;{$syslog_db_logs}</td></tr>
+		<tr class="list_lvl_1"><td class="ListColLvl1_name" colspan="2"><h4>{$syslog_db_logs}</h4></td></tr>
 		<tr class="list_one"><td class="FormRowField">{$form.db_table_logs.label}</td><td class="FormRowValue">{$form.db_table_logs.html}</td></tr>
 		<tr class="list_two"><td class="FormRowField">{$form.db_table_logs_merge.label}</td><td class="FormRowValue">{$form.db_table_logs_merge.html}</td></tr>
-	 	<tr class="list_lvl_1"><td class="ListColLvl1_name" colspan="2"><img src='./img/icones/16x16/note.gif'>&nbsp;&nbsp;{$syslog_db_cache}</td></tr>
+	 	<tr class="list_lvl_1"><td class="ListColLvl1_name" colspan="2"><h4>{$syslog_db_cache}</h4></td></tr>
 		<tr class="list_one"><td class="FormRowField">{$form.db_table_cache.label}</td><td class="FormRowValue">{$form.db_table_cache.html}</td></tr>
 		<tr class="list_two"><td class="FormRowField">{$form.db_table_cache_merge.label}</td><td class="FormRowValue">{$form.db_table_cache_merge.html}</td></tr>
 	</table>
 	</div>	
-	<div id='tab2' class='tab'>
-	<table class="ListTable">
-		<tr class="ListHeader"><td class="FormHeader" colspan="2">&nbsp;<img src='./img/icones/16x16/text_code_colored.gif'>&nbsp;&nbsp;{$form.header.title}</td></tr>
-	 	<tr class="list_lvl_1"><td class="ListColLvl1_name" colspan="2"><img src='./img/icones/16x16/note.gif'>&nbsp;&nbsp;{$syslog_ssh}</td></tr>
+	<div id='tab2' class="tab">
+	<table class="formTable table">
+		<tr class="ListHeader"><td class="FormHeader" colspan="2"><h3>|{$form.header.title}</h3></td></tr>
+	 	<tr class="list_lvl_1"><td class="ListColLvl1_name" colspan="2"><h4>{$syslog_ssh}</h4></td></tr>
 		<tr class="list_one"><td class="FormRowField">{$form.ssh_server_address.label}</td><td class="FormRowValue">{$form.ssh_server_address.html}</td></tr>
 		<tr class="list_two"><td class="FormRowField">{$form.ssh_username.label}</td><td class="FormRowValue">{$form.ssh_username.html}</td></tr>
 		<tr class="list_one"><td class="FormRowField">{$form.ssh_password.label}</td><td class="FormRowValue">{$form.ssh_password.html}</td></tr>
 		<tr class="list_two"><td class="FormRowField">{$form.ssh_server_port.label}</td><td class="FormRowValue">{$form.ssh_server_port.html}</td></tr>
 	</table>
 	</div>	
-	<div id='tab3' class='tab'>
-	<table class="ListTable">
-		<tr class="ListHeader"><td class="FormHeader" colspan="2">&nbsp;<img src='./img/icones/16x16/text_code_colored.gif'>&nbsp;&nbsp;{$form.header.title}</td></tr>
-	 	<tr class="list_lvl_1"><td class="ListColLvl1_name" colspan="2"><img src='./img/icones/16x16/note.gif'>&nbsp;&nbsp;{$syslog_server_configuration}</td></tr>
+	<div id='tab3' class="tab">
+	<table class="formTable table">
+		<tr class="ListHeader"><td class="FormHeader" colspan="2"><h3>|{$form.header.title}</h3></td></tr>
+	 	<tr class="list_lvl_1"><td class="ListColLvl1_name" colspan="2"><h4>{$syslog_server_configuration}</h4></td></tr>
 		<tr class="list_one"><td class="FormRowField">{$form.configuration_dir.label}</td><td class="FormRowValue">{$form.configuration_dir.html}</td></tr>
 		<tr class="list_two"><td class="FormRowField">{$form.retention_days.label}</td><td class="FormRowValue">{$form.retention_days.html}&nbsp;&nbsp;{$days}</td></tr>
 		<tr class="list_one"><td class="FormRowField">{$form.enable.label}</td><td class="FormRowValue">{$form.enable.html}</td></tr>
@@ -61,9 +61,9 @@
 	<div id="validForm">
 	{if $o == "a" || $o == "c"}
 		<p>{$form.action.html}</p>
-		<p class="oreonbutton">{$form.submitC.html}{$form.submitA.html}&nbsp;&nbsp;&nbsp;{$form.reset.html}</p>
+		<p>{$form.submitC.html}{$form.submitA.html}&nbsp;&nbsp;&nbsp;{$form.reset.html}</p>
 	{else if $o == "w"}
-		<p class="oreonbutton">{$form.change.html}&nbsp;&nbsp;&nbsp;{$form.export.html}</p>
+		<p>{$form.change.html}&nbsp;&nbsp;&nbsp;{$form.export.html}</p>
 	{/if}
 	</div>
 	{$form.hidden}

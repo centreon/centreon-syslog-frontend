@@ -1,21 +1,24 @@
 <script type="text/javascript" src="./include/common/javascript/tool.js"></script>
-
 <form name='form' method='POST'>
-	<table class="ToolbarTable">
+	<table class="ToolbarTable table">
 		<tr class="ToolbarTR">
 			{ if $mode_access == 'w' }
-			<td class="Toolbar_TDSelectAction_Top">
+			<td>
 				{$msg.options} {$form.o1.html}
 				&nbsp;&nbsp;&nbsp;
-				<a href="{$msg.addL}">{$msg.addT}</a>
+				<a class="btc bt_success" href="{$msg.addL}">{$msg.addT}</a>
 			</td>
 			{ else }
 			<td>&nbsp;</td>
 			{ /if }
-			<input name="p" value="{$p}" type="hidden">
+			<td class="ToolbarPagination">
 			{php}
 			   include('./include/common/pagination.php');
 			{/php}
+			</td>
+			<td class="Toolbar_pagelimit">
+				<input name="p" value="{$p}" type="hidden">
+			</td>
 		</tr>
 	</table>
 	<table class="ListTable">
@@ -40,27 +43,28 @@
 		</tr>
 		{/section}
 	</table>
-
-	<table class="ToolbarTable">
-		<tr>
+	<table class="ToolbarTable table">
+		<tr class="ToolbarTR">
 			{ if $mode_access == 'w' }
-			<td class="Toolbar_TDSelectAction_Bottom">
+			<td>
 				{$msg.options} {$form.o2.html}
 				&nbsp;&nbsp;&nbsp;
-				<a href="{$msg.addL}">{$msg.addT}</a>
+				<a class="btc bt_success" href="{$msg.addL}">{$msg.addT}</a>
 			</td>
 			{ else }
 			<td>&nbsp;</td>
 			{ /if }
-			<input name="p" value="{$p}" type="hidden">
+			<td class="ToolbarPagination">
 			{php}
-			   include('./include/common/pagination.php');
+				include('./include/common/pagination.php');
 			{/php}
+			</td>
+			<td class="Toolbar_pagelimit">
+				<input name="p" value="{$p}" type="hidden">
+			</td>
 		</tr>
 	</table>
-
 <input type='hidden' name='o' id='o' value='42'>
-
 <input type='hidden' id='limit' name='limit' value='{$limit}'>	
 {$form.hidden}
 </form>
