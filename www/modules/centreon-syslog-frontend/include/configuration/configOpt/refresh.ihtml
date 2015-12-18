@@ -1,15 +1,19 @@
 {$form.javascript}
 <form {$form.attributes}>
-	<div id="validFormTop">
-	{if $o == "m"}
-		<p class="oreonbutton">{$form.submitC.html}&nbsp;&nbsp;&nbsp;{$form.reset.html}</p>
-	{else if $o == "f"}
-		<p class="oreonbutton">{$form.modify.html}&nbsp;&nbsp;&nbsp;{$form.export.html}</p>
-	{/if}
+	<table class="ToolbarTable table">
+		<tr class="ToolbarTR">
+			<div id="validFormTop">
+			{if $o == "m"}
+				<p>{$form.submitC.html}&nbsp;&nbsp;&nbsp;{$form.reset.html}</p>
+			{else if $o == "f"}
+				<p>{$form.modify.html}&nbsp;&nbsp;&nbsp;{$form.export.html}</p>
+			{/if}
+		</tr>
+	</table>
 	</div>
 	<div id='tab1' class='tab'>
-		<table class="ListTable">
-			<tr class="ListHeader"><td class="FormHeader" colspan="2">&nbsp;<img src='./img/icones/16x16/text_code_colored.gif'>&nbsp;&nbsp;{$form.header.title}</td></tr>
+		<table class="formTable table">
+			<tr class="ListHeader"><td class="FormHeader" colspan="2"><h3>|{$form.header.title}</h3></td></tr>
 			<tr class="list_one"><td class="FormRowField">{$form.refresh_monitoring.label}</td><td class="FormRowValue">{$form.refresh_monitoring.html}&nbsp;&nbsp;{$seconds}</td></tr>
 			<tr class="list_two"><td class="FormRowField">{$form.refresh_filters.label}</td><td class="FormRowValue">{$form.refresh_filters.html}&nbsp;&nbsp;{$seconds}</td></tr>
 		</table>
@@ -17,9 +21,9 @@
 	<div id="validForm">
 		<p>{$form.action.html}</p>
 		{if $o == "m"}
-			<p class="oreonbutton">{$form.submitC.html}&nbsp;&nbsp;&nbsp;{$form.reset.html}</p>
+			<p>{$form.submitC.html}&nbsp;&nbsp;&nbsp;{$form.reset.html}</p>
 		{else if $o == "f"}
-			<p class="oreonbutton">{$form.modify.html}&nbsp;&nbsp;&nbsp;{$form.export.html}</p>
+			<p>{$form.modify.html}&nbsp;&nbsp;&nbsp;{$form.export.html}</p>
 		{/if}
 	</div>
 	{$form.hidden}

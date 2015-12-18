@@ -127,12 +127,12 @@
 	 * Add buttons
 	 */
 	if ($o == "m") {
-		$subC =& $form->addElement('submit', 'submitC', _("Save"));
-		$res =& $form->addElement('reset', 'reset', _("Reset"));
+		$subC =& $form->addElement('submit', 'submitC', _("Save"), array("class" => "btc bt_success"));
+		$res =& $form->addElement('reset', 'reset', _("Reset"), array("class" => "btc bt_default"));
 		$redirect->setValue("f");
 	} else if ($o == "f") {
 		$form->freeze();
-		$form->addElement('button', 'modify', _("Modify"), array("onClick"=>"javascript:window.location.href='?p=".$p."&o=m'"));
+		$form->addElement('button', 'modify', _("Modify"), array("class" => "btc bt_default", "onClick" => "javascript:window.location.href='?p=".$p."&o=m'"));
 		
 	}
 	
