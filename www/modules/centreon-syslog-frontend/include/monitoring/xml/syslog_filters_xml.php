@@ -41,7 +41,7 @@
 	/*
 	 * PHP require
 	 */
-	require_once "@CENTREON_ETC@centreon.conf.php";
+	require_once "/etc/centreon/centreon.conf.php";
 	require_once $centreon_path . "www/modules/centreon-syslog-frontend/include/common/header.php";
 	require_once $centreon_path . "www/include/common/common-Func.php";
 	
@@ -126,10 +126,6 @@
 		     echo "<root>";
 		    
 		    # For headers
-		    echo "<headers>";
-		    echo "<header>"._("Syslog filters parameters :")."</header>";
-		    echo "</headers>";
-		    
 		    echo "<filters>";
 		    echo "<filter>"._("Host")."</filter>";
 		    echo "<filter>"._("Facility")."</filter>";
@@ -137,10 +133,6 @@
 		    echo "<filter>"._("Program")."</filter>";
 		    echo "<filter>"._("Message")."</filter>";
 		    echo "</filters>";
-		    
-		    echo "<buttons>";
-		    echo "<buton>"._("stop")."</buton>";
-		    echo "</buttons>";
 		    
 		    # For hosts select box
 		    echo "<hosts>";
@@ -213,7 +205,7 @@
 				echo "<program></program>";
 		    }
 	    	echo "</programs>";
-	    	echo "<msg></msg>";
+	    	echo "<msg/>";
 	     	echo "</root>";
 	    }
 	} else {
