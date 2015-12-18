@@ -63,7 +63,7 @@
 	$tpl->assign("headerMenu_status", _("Status"));
 	$tpl->assign("headerMenu_comment", _("Comment"));
 	$tpl->assign("headerMenu_options", _("Options"));
-	
+	$tpl->assign("p", $p);	
 	/*
 	 * Pollers list
 	 */

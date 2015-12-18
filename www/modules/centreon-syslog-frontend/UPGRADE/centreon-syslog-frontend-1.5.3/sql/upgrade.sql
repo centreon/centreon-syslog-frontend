@@ -11,3 +11,5 @@ UPDATE topology SET topology_parent = '240', topology_page = '24002' WHERE topol
 INSERT INTO topology_JS (id_page, PathName_js) VALUES ('24002', './modules/centreon-syslog-frontend/include/search/javascript/exportCSV.js'),('24002', './include/common/javascript/datePicker.js'),('24002', './include/common/javascript/tool.js');
 
 UPDATE topology SET topology_parent = '240', topology_page = '24003' WHERE topology_page = '20403' AND topology_name = 'Details';
+
+UPDATE topology SET topology_url = './modules/centreon-syslog-frontend/include/configuration/configCollectors/collectors.php' WHERE  topology_page = '605' AND topology_name = 'Syslog';
