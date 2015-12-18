@@ -295,10 +295,7 @@
 	$tpl->assign('endDate', date("m/d/Y", $EndDate));
 	$tpl->assign('startTime', $StartTime);
 	$tpl->assign('endTime', $EndTime);
-	$tpl->assign('export', _("Export"));
-	$tpl->assign("MODULE_TITLE", _("Syslog"));
-	$tpl->assign("FILTER_TITLE", _("Syslog filters parameters :"));
-	$tpl->assign("headerMenu_collectors", _("Collectors:"));
+	$tpl->assign("headerMenu_collectors", _("Poller"));
 	$tpl->assign("headerMenu_datetime", _("Date / Time"));
 	$tpl->assign("headerMenu_host", _("Host"));
 	$tpl->assign("headerMenu_facility", _("Facility"));
@@ -308,7 +305,7 @@
 	$tpl->assign('limit', $limit);
 
 	# Attributs definition for form_filter quickform
-	$attrsText = array("size"=>"100%");
+	$attrsText = array("size"=>"75");
 	$attrsTextDate 	= array("size"=>"11", "style"=>"font-family:Verdana, Tahoma;font-size:9px;height:13px;border: 0.5px solid gray;");
 	$attrsTextHour 	= array("size"=>"5", "style"=>"font-family:Verdana, Tahoma;font-size:9px;height:13px;border: 0.5px solid gray;");
 
@@ -358,8 +355,8 @@
    	$form_filter->setDefaults($tab_value);
 
    	if (!$error) {
-		$form_filter->addElement('submit', 'filter_search',  _("filter") );
-		$form_filter->addElement('reset', 'reset',  _("reset"));
+		$form_filter->addElement('submit', 'filter_search',  _("Search"), "class='btc bt_success'" );
+		$form_filter->addElement('reset', 'reset',  _("Reset"), "class='btc bt_default'");
    	}
 	$renderer_filter =& new HTML_QuickForm_Renderer_ArraySmarty($tpl);
 	$form_filter->accept($renderer_filter);

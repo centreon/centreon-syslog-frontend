@@ -2,7 +2,7 @@ UPDATE topology SET topology_page = '240' WHERE topology_page = '204' AND topolo
 UPDATE topology SET topology_parent = '240', topology_page = '24001' WHERE topology_page = '20401' AND topology_name = 'Monitoring';
 
 DELETE FROM topology_JS WHERE id_page = '20402' AND PathName_js = './modules/centreon-syslog-frontend/include/search/javascript/exportCSV.js';
-DELETE FROM topology_JS WHERE id_page = '20402' AND PathName_js = './include/common/javascript/datePicker.js';
+DELETE FROM topology_JS WHERE id_page = '20402' AND PathName_js = './include/common/javascript/jquery/jquery-ui.js';
 DELETE FROM topology_JS WHERE id_page = '20402' AND PathName_js = './include/common/javascript/tool.js';
 
 
