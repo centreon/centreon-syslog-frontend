@@ -5,9 +5,9 @@ Version: 1.5.x
 
 #	Installation:
 
-Installation is detailed on documentation available here: http://forge.centreon.com/projects/centreon-syslog/documents
+Installation is detailed on documentation available here: https://documentation-fr.centreon.com/
 
-1. Get last version of Syslog module here http://forge.centreon.com/projects/list_files/centreon-syslog
+1. Get last version of Syslog module here https://github.com/centreon/centreon-syslog-frontend
 
 2. Start installation with install.sh script on root directory "centreon-syslog-frontend-1.5.x"
 
