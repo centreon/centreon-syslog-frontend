@@ -39,7 +39,7 @@
  * 
  */	
 
-	include ("@CENTREON_ETC@centreon.conf.php");
+	include ("/etc/centreon/centreon.conf.php");
 
 	require_once $centreon_path . "www/modules/centreon-syslog-frontend/include/common/header.php";
 	
@@ -100,7 +100,7 @@
 	$attrsText = array("size"=>"100%");
 	
 	$form = new HTML_QuickForm('Form');
-	$form->addElement('header', 'title', _("Details of event:"));
+	$form->addElement('header', 'title', _("Details of event"));
 	$form->addElement('text', 'host', _("Host"), $attrsText);
 	$form->addElement('text', 'datetime', _("Date / Time"), $attrsText);
 	$form->addElement('text', 'facility', _("Facility"), $attrsText);
@@ -112,7 +112,7 @@
 	$form->addElement('text', 'counter', _("Compteur"), $attrsText);
 	$form->addElement('text', 'fo', _("FO"), $attrsText);
 	$form->addElement('text', 'lo', _("LO"), $attrsText);
-	$form->addElement("button", "back", _("Back"), array("onClick"=>"javascript:history.back()"));
+	$form->addElement("button", "back", _("Back"), array("class" => "btc bt_default", "onClick" => "javascript:history.back()"));
 
 	$form->setDefaults($eventDetails);
 	$form->freeze();

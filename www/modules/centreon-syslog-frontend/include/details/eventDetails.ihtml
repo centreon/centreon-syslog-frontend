@@ -1,11 +1,11 @@
 {$form.javascript}
 <form {$form.attributes}>
 	<div id="back">
-		<p class="oreonbutton">{$form.back.html}</p>&nbsp;&nbsp;
+		<p class="oreonbutton">{$form.back.html}</p>
 	</div>
 	<div>
-	 <table class="ListTable">
-	 	<tr class="ListHeader"><td class="FormHeader" colspan="2">&nbsp;<img src='./img/icones/16x16/text_code_colored.gif'>&nbsp;&nbsp;{$form.header.title}</td></tr>
+	 <table class="formTable table">
+	 	<tr class="ListHeader" colspan="2"><td class="FormHeader"><h3>| {$form.header.title}</h3></td></tr>
 	 	<tr class="list_one"><td class="FormRowField">{$form.host.label}</td><td class="FormRowValue">{$form.host.html}</td></tr>
 		<tr class="list_two"><td class="FormRowField">{$form.datetime.label}</td><td class="FormRowValue">{$form.datetime.html}</td></tr>
 		<tr class="list_one"><td class="FormRowField">{$form.facility.label}</td><td class="FormRowValue">{$form.facility.html}</td></tr>
@@ -20,7 +20,7 @@
 	</table>
 	</div>
 	<div id="back">
-		&nbsp;&nbsp;<p class="oreonbutton">{$form.back.html}</p>
+		<p class="oreonbutton">{$form.back.html}</p>
 	</div>
 	{$form.hidden}
 </form>
