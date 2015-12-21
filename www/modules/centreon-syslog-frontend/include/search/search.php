@@ -272,7 +272,7 @@
 						print "Mysql Error : ".$DBRESULT1->getMessage();
 		
 			while ($DBRESULT1->fetchInto($data)) {
-				$elemArr[] = array("RowMenu_link"=>"main.php?p=20403&collector=".$collector."&host=".$data["host"]."&facility=".$data["facility"]."&priority=".$data["priority"]."&datetime=".$data["datetime"]."&program=".$data["program"],
+				$elemArr[] = array("RowMenu_link"=>"main.php?p=24003&collector=".$collector."&host=".$data["host"]."&facility=".$data["facility"]."&priority=".$data["priority"]."&datetime=".$data["datetime"]."&program=".$data["program"],
 								"RowMenu_datetime"=>$data["datetime"],
 								"RowMenu_host"=>$data["host"],
 								"RowMenu_facility"=>$data["facility"],
