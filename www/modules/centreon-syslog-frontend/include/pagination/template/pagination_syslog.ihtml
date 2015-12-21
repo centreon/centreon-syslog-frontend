@@ -1,11 +1,11 @@
 {$select_form.javascript}
 {$javascript}
-<table class="ToolbarTable">
+<table class="ToolbarTable table">
 	<tr class="ToolbarTR">
 		<td colspan="2" width="200">&nbsp;</td>
 		<td class="ToolbarPagination">
 			{if $pagePrev}
-				&nbsp;<a href="{$pagePrev}{if $host_name}&host_name={$host_name}{/if}"><img src="./img/icones/16x16/arrow_left_blue.gif"  alt='{$previous}' title='{$previous}'></a>
+				&nbsp;<a href="{$pagePrev}{if $host_name}&host_name={$host_name}{/if}"><img class="icon-14" src="./img/icons/rewind.png"  alt='{$previous}' title='{$previous}'></a>
 			{/if}
 			{foreach key=key item=item from=$pageArr }
 				{if $pageArr[$key].num != $num}
@@ -15,11 +15,11 @@
 				{/if}
 			{/foreach}
 			{if $pageNext}&nbsp;
-				<a href="{$pageNext}"><img src="./img/icones/16x16/arrow_right_blue.gif" alt='{$next}' title='{$next}'></a>
+				<a href="{$pageNext}"><img class="icon-14" src="./img/icons/fast_forward.png" alt='{$next}' title='{$next}'></a>
 			{/if}	
 		</td>
 		<td class="Toolbar_pagelimit">
-			&nbsp;{$select_form.l.label}&nbsp;{$select_form.l.html}&nbsp;{$page}&nbsp;{$pageNumber}
+			{$select_form.l.html}
 		</td>
 	</tr>
 </table>
