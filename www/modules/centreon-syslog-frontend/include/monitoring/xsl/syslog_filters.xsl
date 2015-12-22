@@ -147,7 +147,8 @@
 				<xsl:element name="tr">
 					<xsl:for-each select="//error">
 						<xsl:element name="td">
-							<xsl:value-of select="." />
+							<xsl:attribute name='align'>center</xsl:attribute>
+							<b><h4><xsl:value-of select="." /></h4></b>
 						</xsl:element>
 					</xsl:for-each>
 				</xsl:element>

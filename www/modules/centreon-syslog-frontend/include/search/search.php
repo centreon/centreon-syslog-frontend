@@ -284,7 +284,7 @@
 		}
 	} else {
 		$error = 1;
-		echo "<table><tr><td>"._("Please select a collector.")."</b></td></tr></table><br\>";
+		echo "<table><tr><td><b><h3>"._("Please select a collector.")."</h3></b></td></tr></table><br\>";
 	}
 
 	# Smarty template Init
