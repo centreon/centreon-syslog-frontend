@@ -70,7 +70,7 @@
 	echo "<table width=\"100%\">";
 	echo "  <tr class=\"list_two\" align=\"center\">";
 	echo "          <td class=\"ListColCenter\">";
-	echo "                  "._("Collector:")."&nbsp;&nbsp;&nbsp;";
+	echo "                  "._("Collector")."&nbsp;&nbsp;&nbsp;";
 	echo "                  <select onChange=\"javascript:rebuild_page();\" name=\"collector_id\" id=\"collector_id\" >";
 	foreach ($collectorList as $key => $value) {
 		if (($init == 0) && preg_match('/^$/', $value) == 0) {
@@ -82,8 +82,8 @@
 	}
 	echo "					</select>";
 	echo "          </td>";
-	echo "          <td class=\"ListColCenter\">";
-	echo "                  "._("Refresh:")."&nbsp;&nbsp;&nbsp;<input onclick=\"javascript:ajax_handler(this.value)\" name=\"ajax\" id=\"ajaxBtn\" value=\""._("stop")."\" type=\"button\" />";
+	echo "          <td>";
+	echo "                  "._("Refresh")."&nbsp;&nbsp;&nbsp;<input class=\"btc bt_default\" onclick=\"javascript:ajax_handler(this.value)\" name=\"ajax\" id=\"ajaxBtn\" value=\""._("stop")."\" type=\"button\" />";
 	echo "          </td>";
 	echo "  </tr>";
 	echo "</table>";
