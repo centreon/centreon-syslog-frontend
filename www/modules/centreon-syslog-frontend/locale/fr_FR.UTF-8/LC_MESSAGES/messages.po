@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Centreon Syslog Frontend\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 16:08+0000\n"
-"PO-Revision-Date: 2015-12-21 17:10+0100\n"
+"POT-Creation-Date: 2015-12-22 10:22+0000\n"
+"PO-Revision-Date: 2015-12-22 11:23+0100\n"
 "Last-Translator: Laurent Pinsivy <lpinsivy@centreon.com>\n"
 "Language-Team: Centreon Syslog team <contact@centreon.com>\n"
 "MIME-Version: 1.0\n"
@@ -142,11 +142,11 @@ msgid "No informations"
 msgstr "Aucune information disponible"
 
 #: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/monitoring/syslog.php:73
-msgid "Collector:"
-msgstr "Collecteur :"
+msgid "Collector"
+msgstr "Collecteur"
 
 #: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/monitoring/syslog.php:86
-msgid "Refresh:"
+msgid "Refresh"
 msgstr "Rafraichissement"
 
 #: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/monitoring/syslog.php:86
