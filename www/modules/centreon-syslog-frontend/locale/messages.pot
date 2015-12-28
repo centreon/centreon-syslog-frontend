@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-22 10:22+0000\n"
+"POT-Creation-Date: 2015-12-28 15:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,6 +19,31 @@ msgstr ""
 #: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/class/syslogDB.class.php:144
 #: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/common/common-Func.php:631
 msgid "Connection failed, please contact your administrator"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/locale/menu.php:2
+msgid "Syslog"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/locale/menu.php:3
+msgid "Monitoring"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/locale/menu.php:4
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/search.php:358
+msgid "Search"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/locale/menu.php:5
+msgid "Details"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/locale/menu.php:6
+msgid "General"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/locale/menu.php:7
+msgid "Resfresh"
 msgstr ""
 
 #: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/xml/syslog_filters_xml.php:126
@@ -113,10 +138,6 @@ msgstr ""
 #: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/search.php:341
 #: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/export/odtPHP/odtPHP_export.php:69
 msgid "To"
-msgstr ""
-
-#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/search.php:358
-msgid "Search"
 msgstr ""
 
 #: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/search.php:359

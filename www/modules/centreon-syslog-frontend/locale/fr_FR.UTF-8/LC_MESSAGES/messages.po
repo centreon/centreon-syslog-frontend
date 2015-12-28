@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Centreon Syslog Frontend\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-22 10:22+0000\n"
-"PO-Revision-Date: 2015-12-22 11:23+0100\n"
+"POT-Creation-Date: 2015-12-28 14:48+0000\n"
+"PO-Revision-Date: 2015-12-28 15:49+0100\n"
 "Last-Translator: Laurent Pinsivy <lpinsivy@centreon.com>\n"
 "Language-Team: Centreon Syslog team <contact@centreon.com>\n"
 "MIME-Version: 1.0\n"
@@ -22,6 +22,31 @@ msgstr ""
 #: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/common/common-Func.php:631
 msgid "Connection failed, please contact your administrator"
 msgstr "Echec de connexion, contactez votre administrateur"
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/locale/menu.php:2
+msgid "Syslog"
+msgstr "Syslog"
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/locale/menu.php:3
+msgid "Monitoring"
+msgstr "Temps réel"
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/locale/menu.php:4
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/search.php:358
+msgid "Search"
+msgstr "Recherche"
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/locale/menu.php:5
+msgid "Details"
+msgstr "Détails"
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/locale/menu.php:6
+msgid "General"
+msgstr "Général"
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/locale/menu.php:7
+msgid "Resfresh"
+msgstr "Rafraichissement"
 
 #: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/xml/syslog_filters_xml.php:126
 msgid "Syslog filters parameters :"
@@ -118,10 +143,6 @@ msgstr "De"
 #: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/export/odtPHP/odtPHP_export.php:69
 msgid "To"
 msgstr "A"
-
-#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/search.php:358
-msgid "Search"
-msgstr "Recherche"
 
 #: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/search.php:359
 #: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configOpt/refresh.php:131
@@ -532,9 +553,6 @@ msgstr ""
 
 #~ msgid "Export"
 #~ msgstr "Exporter"
-
-#~ msgid "Syslog"
-#~ msgstr "Syslog"
 
 #~ msgid "Collectors:"
 #~ msgstr "Collecteurs :"
