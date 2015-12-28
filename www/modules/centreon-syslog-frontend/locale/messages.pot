@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-12-28 14:06+0100\n"
+"POT-Creation-Date: 2015-12-28 14:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,540 +16,484 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/class/syslogDB.class.php:144
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/common/common-Func.php:412
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/class/syslogDB.class.php:144
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/common/common-Func.php:631
 msgid "Connection failed, please contact your administrator"
 msgstr ""
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/pagination/pagination_syslog.php:206
-msgid "previous"
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/locale/menu.php:2
+msgid "Syslog"
 msgstr ""
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/pagination/pagination_syslog.php:207
-msgid "next"
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/locale/menu.php:3
+msgid "Monitoring"
 msgstr ""
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/pagination/pagination_syslog.php:231
-msgid "Lines: "
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/locale/menu.php:4
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/search.php:358
+msgid "Search"
 msgstr ""
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/pagination/pagination_syslog.php:251
-msgid "Pages : "
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/locale/menu.php:5
+msgid "Details"
 msgstr ""
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/monitoring/syslog.php:76
-msgid "Collector:"
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/locale/menu.php:6
+msgid "General"
 msgstr ""
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/monitoring/syslog.php:84
-msgid "Refresh:"
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/locale/menu.php:7
+msgid "Resfresh"
 msgstr ""
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/monitoring/syslog.php:84
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/monitoring/javascript/syslog_js.php:66
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_filters_xml.php:142
-msgid "stop"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/monitoring/javascript/syslog_js.php:65
-msgid "start"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_xml.php:85
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_filters_xml.php:220
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/search.php:294
-msgid "Please select a collector."
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_xml.php:154
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/export/odtPHP/odtPHP_export.php:183
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:105
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/search.php:309
-msgid "Date / Time"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_xml.php:155
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_filters_xml.php:134
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/export/odtPHP/odtPHP_export.php:184
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:104
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/search.php:310
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/xml/syslog_filters_xml.php:136
-msgid "Host"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_xml.php:156
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_filters_xml.php:135
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/export/odtPHP/odtPHP_export.php:185
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:106
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/search.php:311
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/xml/syslog_filters_xml.php:137
-msgid "Facility"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_xml.php:157
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_filters_xml.php:136
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/export/odtPHP/odtPHP_export.php:186
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:107
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/search.php:312
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/xml/syslog_filters_xml.php:138
-msgid "Severity"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_xml.php:158
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_filters_xml.php:137
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/export/odtPHP/odtPHP_export.php:187
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:109
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/search.php:313
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/xml/syslog_filters_xml.php:139
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/xml/syslog_filters_xml.php:142
-msgid "Program"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_xml.php:159
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_filters_xml.php:138
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/export/odtPHP/odtPHP_export.php:188
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:110
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/search.php:314
-msgid "Message"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_xml.php:171
-msgid "No informations"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_filters_xml.php:115
-msgid ""
-"Problem to access to merge cache table. Please contact your administrator."
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_filters_xml.php:130
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/search.php:307
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/xml/syslog_filters_xml.php:126
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/xml/syslog_filters_xml.php:126
 msgid "Syslog filters parameters :"
 msgstr ""
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/export/odtPHP/odtPHP_export.php:67
-msgid "Syslog events"
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/xml/syslog_filters_xml.php:129
+msgid "Export :"
 msgstr ""
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/export/odtPHP/odtPHP_export.php:68
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/search.php:349
-msgid "From"
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/xml/syslog_filters_xml.php:136
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/search.php:300
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_filters_xml.php:130
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_xml.php:155
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/export/odtPHP/odtPHP_export.php:187
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:104
+msgid "Host"
 msgstr ""
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/export/odtPHP/odtPHP_export.php:69
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/search.php:351
-msgid "To"
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/xml/syslog_filters_xml.php:137
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/search.php:301
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_filters_xml.php:131
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_xml.php:156
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/export/odtPHP/odtPHP_export.php:188
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:106
+msgid "Facility"
 msgstr ""
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/export/ssh2/ssh2_export.php:73
-msgid "No collector ID defined"
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/xml/syslog_filters_xml.php:138
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/search.php:302
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_filters_xml.php:132
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_xml.php:157
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/export/odtPHP/odtPHP_export.php:189
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:107
+msgid "Severity"
 msgstr ""
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/export/ssh2/ssh2_export.php:132
-msgid "Configuration file copied successfully"
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/xml/syslog_filters_xml.php:139
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/xml/syslog_filters_xml.php:142
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/search.php:303
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_filters_xml.php:133
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_xml.php:158
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/export/odtPHP/odtPHP_export.php:190
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:109
+msgid "Program"
 msgstr ""
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/export/ssh2/ssh2_export.php:147
-msgid "Unable to connect on distant server."
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/xml/syslog_filters_xml.php:145
+msgid "From: "
 msgstr ""
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/export/ssh2/ssh2_export.php:158
-msgid "Authentification failed."
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/xml/syslog_filters_xml.php:149
+msgid "  To: "
 msgstr ""
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/export/ssh2/ssh2_export.php:165
-msgid ""
-"Unable to export configuration file. Rights may be not correct on distant "
-"directory."
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/export/ssh2/ssh2_export.php:169
-msgid "Configuration file exported successfully"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:103
-msgid "Details of event:"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:108
-msgid "Tag"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:111
-msgid "Sequence"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:112
-msgid "Compteur"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:113
-msgid "FO"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:114
-msgid "LO"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:115
-msgid "Back"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/common/common-Func.php:115
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/common/common-Func.php:144
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/common/common-Func.php:174
-msgid ""
-"<br\\>Database empty or not correctly configured<br\\><br\\>Please contact "
-"your administrator."
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:69
-msgid "Add a Poller Configuration File"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:71
-msgid "Modify a Poller Configuration File"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:73
-msgid "View a Poller Configuration File"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:79
-msgid "Collector name"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:80
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:92
-msgid "IP or DNS name"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:81
-msgid "Database port"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:82
-msgid "Database type"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:83
-msgid "Database name"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:84
-msgid "Database user"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:85
-msgid "Password of Database user"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:86
-msgid "Logs table name"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:87
-msgid "Logs Merge table name"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:88
-msgid "Cache table name"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:89
-msgid "Cache Merge table name"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:93
-msgid "Username for SSH connection"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:94
-msgid "Password for SSH connection"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:95
-msgid "SSH port"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:98
-msgid "Configuration directory"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:99
-msgid "Duration of retention of data"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:100
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:81
-msgid "Comment"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:102
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:109
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:117
-msgid "Enabled"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:103
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:107
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:117
-msgid "Disabled"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:104
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:80
-msgid "Status"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:139
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:141
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:142
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:143
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:144
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:145
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:146
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:147
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:148
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/formHost.php:69
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/formHost.php:70
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/formHost.php:71
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configOpt/refresh.php:102
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configOpt/refresh.php:103
-msgid "Required Field"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:140
-msgid "Name is already in use"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:156
-msgid "General DB information"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:157
-msgid "Logs tables"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:158
-msgid "Cache tables"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:159
-msgid "SSH information"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:160
-msgid "Configuration of syslog collector"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:161
-msgid "Frontend configuration"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:162
-msgid "days"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:163
-msgid "seconds"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:164
-msgid "Database"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:165
-msgid "SSH"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:166
-msgid "Configuration"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:173
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/formHost.php:90
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configOpt/refresh.php:135
-msgid "Modify"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:175
-msgid "Export configuration"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:178
-msgid ""
-"Export button is hidden because SSH2 libraries for PHP was not installed."
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:179
-msgid "Please refer to install guide for Centreon-Syslog-Frontend."
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:189
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:196
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/formHost.php:92
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configOpt/refresh.php:130
-msgid "Save"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:190
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:197
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/formHost.php:87
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/formHost.php:93
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configOpt/refresh.php:131
-msgid "Reset"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:77
-msgid "Name"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:78
-msgid "Database Address"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:79
-msgid "Database Type"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:82
-msgid "Options"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:126
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/listHosts.php:106
-msgid "Add"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:126
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:142
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:156
-msgid "Do you confirm the deletion ?"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:140
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:154
-msgid "Do you confirm the duplication ?"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:147
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:161
-msgid "More actions..."
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:147
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:161
-msgid "Duplicate"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:147
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:161
-msgid "Delete"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/importHostinDB.php:73
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/syslogImport.php:152
-msgid "Unable to get IP address"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/syslogImport.php:133
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/listHosts.php:69
-msgid "Syslog Name"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/syslogImport.php:134
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/listHosts.php:70
-msgid "Syslog IP v4"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/syslogImport.php:172
-msgid "Import"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/formHost.php:63
-msgid "Link a Centreon host to a Syslog host"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/formHost.php:64
-msgid "Centreon host name"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/formHost.php:65
-msgid "Syslog host name"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/formHost.php:66
-msgid "Syslog host IP address"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/formHost.php:72
-msgid "Required fields"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/formHost.php:86
-msgid "Create"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/listHosts.php:68
-msgid "Centreon Host Name"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/listHosts.php:97
-msgid "any correspondence with a Centreon host"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configHosts/listHosts.php:106
-msgid "Syslog Import"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configOpt/refresh.php:89
-msgid "Refresh Options"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configOpt/refresh.php:92
-msgid "Refresh Interval for monitoring"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/configuration/configOpt/refresh.php:93
-msgid "Refresh Interval for filters"
-msgstr ""
-
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/search.php:259
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/search.php:252
 msgid ""
 "Unable to access to table 'db_table_logs_merge', please check the centreon "
 "mysql database on this collector."
 msgstr ""
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/search.php:305
-msgid "Export"
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/search.php:287
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_filters_xml.php:212
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_xml.php:84
+msgid "Please select a collector."
 msgstr ""
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/search.php:306
-msgid "Syslog"
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/search.php:298
+msgid "Poller"
 msgstr ""
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/search.php:308
-msgid "Collectors:"
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/search.php:299
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_xml.php:154
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/export/odtPHP/odtPHP_export.php:186
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:105
+msgid "Date / Time"
 msgstr ""
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/search.php:368
-msgid "filter"
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/search.php:304
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_filters_xml.php:134
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_xml.php:159
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/export/odtPHP/odtPHP_export.php:191
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:110
+msgid "Message"
 msgstr ""
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/search.php:369
-msgid "reset"
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/search.php:339
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/export/odtPHP/odtPHP_export.php:68
+msgid "From"
 msgstr ""
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/xml/syslog_filters_xml.php:129
-msgid "Export :"
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/search.php:341
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/export/odtPHP/odtPHP_export.php:69
+msgid "To"
 msgstr ""
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/xml/syslog_filters_xml.php:145
-msgid "From: "
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/search/search.php:359
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configOpt/refresh.php:131
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:190
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:197
+msgid "Reset"
 msgstr ""
 
-#: /merethis/centreon-syslog/svn/www/modules/centreon-syslog-frontend/include/search/xml/syslog_filters_xml.php:149
-msgid "  To: "
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_filters_xml.php:115
+msgid ""
+"Problem to access to merge cache table. Please contact your administrator."
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/monitoring/xml/syslog_xml.php:171
+msgid "No informations"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/monitoring/syslog.php:73
+msgid "Collector"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/monitoring/syslog.php:86
+msgid "Refresh"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/monitoring/syslog.php:86
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/monitoring/javascript/syslog_js.php:66
+msgid "stop"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/monitoring/javascript/syslog_js.php:65
+msgid "start"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configOpt/refresh.php:89
+msgid "Refresh Options"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configOpt/refresh.php:92
+msgid "Refresh Interval for monitoring"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configOpt/refresh.php:93
+msgid "Refresh Interval for filters"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configOpt/refresh.php:102
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configOpt/refresh.php:103
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:139
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:141
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:142
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:143
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:144
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:145
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:146
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:147
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:148
+msgid "Required Field"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configOpt/refresh.php:130
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:189
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:196
+msgid "Save"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configOpt/refresh.php:135
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:173
+msgid "Modify"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:60
+msgid "Name"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:61
+msgid "Database Address"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:62
+msgid "Database Type"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:63
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:104
+msgid "Status"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:64
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:100
+msgid "Comment"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:65
+msgid "Options"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:89
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:100
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:103
+msgid "Disabled"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:91
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:100
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:102
+msgid "Enabled"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:109
+msgid "Add"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:109
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:125
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:139
+msgid "Do you confirm the deletion ?"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:123
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:137
+msgid "Do you confirm the duplication ?"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:130
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:144
+msgid "More actions..."
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:130
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:144
+msgid "Duplicate"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:130
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/listCollectors.php:144
+msgid "Delete"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:69
+msgid "Add a Poller Configuration File"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:71
+msgid "Modify a Poller Configuration File"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:73
+msgid "View a Poller Configuration File"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:79
+msgid "Collector name"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:80
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:92
+msgid "IP or DNS name"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:81
+msgid "Database port"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:82
+msgid "Database type"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:83
+msgid "Database name"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:84
+msgid "Database user"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:85
+msgid "Password of Database user"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:86
+msgid "Logs table name"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:87
+msgid "Logs Merge table name"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:88
+msgid "Cache table name"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:89
+msgid "Cache Merge table name"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:93
+msgid "Username for SSH connection"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:94
+msgid "Password for SSH connection"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:95
+msgid "SSH port"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:98
+msgid "Configuration directory"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:99
+msgid "Duration of retention of data"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:140
+msgid "Name is already in use"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:156
+msgid "General DB information"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:157
+msgid "Logs tables"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:158
+msgid "Cache tables"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:159
+msgid "SSH information"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:160
+msgid "Configuration of syslog collector"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:161
+msgid "Frontend configuration"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:162
+msgid "days"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:163
+msgid "seconds"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:164
+msgid "Database"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:165
+msgid "SSH"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:166
+msgid "Configuration"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:175
+msgid "Export configuration"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:178
+msgid ""
+"Export button is hidden because SSH2 libraries for PHP was not installed."
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/configuration/configCollectors/formCollector.php:179
+msgid "Please refer to install guide for Centreon-Syslog-Frontend."
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/pagination/pagination_syslog.php:206
+msgid "previous"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/pagination/pagination_syslog.php:207
+msgid "next"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/pagination/pagination_syslog.php:231
+msgid "Lines: "
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/pagination/pagination_syslog.php:251
+msgid "Pages : "
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/export/odtPHP/odtPHP_export.php:67
+msgid "Syslog events"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/export/ssh2/ssh2_export.php:73
+msgid "No collector ID defined"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/export/ssh2/ssh2_export.php:132
+msgid "Configuration file copied successfully"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/export/ssh2/ssh2_export.php:147
+msgid "Unable to connect on distant server."
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/export/ssh2/ssh2_export.php:158
+msgid "Authentification failed."
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/export/ssh2/ssh2_export.php:165
+msgid ""
+"Unable to export configuration file. Rights may be not correct on distant "
+"directory."
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/export/ssh2/ssh2_export.php:169
+msgid "Configuration file exported successfully"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:103
+msgid "Details of event"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:108
+msgid "Tag"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:111
+msgid "Sequence"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:112
+msgid "Compteur"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:113
+msgid "FO"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:114
+msgid "LO"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/details/eventDetails.php:115
+msgid "Back"
+msgstr ""
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/common/common-Func.php:334
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/common/common-Func.php:363
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/include/common/common-Func.php:393
+msgid ""
+"<br\\>Database empty or not correctly configured<br\\><br\\>Please contact "
+"your administrator."
 msgstr ""
