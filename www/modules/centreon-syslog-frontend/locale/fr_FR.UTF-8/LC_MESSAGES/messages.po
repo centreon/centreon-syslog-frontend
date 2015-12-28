@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Centreon Syslog Frontend\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-28 14:48+0000\n"
-"PO-Revision-Date: 2015-12-28 15:49+0100\n"
+"POT-Creation-Date: 2015-12-28 16:20+0000\n"
+"PO-Revision-Date: 2015-12-28 17:21+0100\n"
 "Last-Translator: Laurent Pinsivy <lpinsivy@centreon.com>\n"
 "Language-Team: Centreon Syslog team <contact@centreon.com>\n"
 "MIME-Version: 1.0\n"
@@ -41,10 +41,14 @@ msgid "Details"
 msgstr "Détails"
 
 #: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/locale/menu.php:6
+msgid "Collectors"
+msgstr "Collecteurs"
+
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/locale/menu.php:7
 msgid "General"
 msgstr "Général"
 
-#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/locale/menu.php:7
+#: /tmp/centreon-syslog-frontend/www/modules/centreon-syslog-frontend/locale/menu.php:8
 msgid "Resfresh"
 msgstr "Rafraichissement"
 
@@ -553,9 +557,6 @@ msgstr ""
 
 #~ msgid "Export"
 #~ msgstr "Exporter"
-
-#~ msgid "Collectors:"
-#~ msgstr "Collecteurs :"
 
 #~ msgid "filter"
 #~ msgstr "filtrer"
