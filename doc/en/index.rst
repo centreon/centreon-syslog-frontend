@@ -8,9 +8,8 @@ Welcome to Centreon Syslog Frontend's documentation!
 
 The `Centreon Syslog project <http://forge.centreon.com/projects/centreon-syslog>`_ consists of several parts:
 
-* `Centreon Syslog Frontend <http://forge.centreon.com/projects/centreon-syslog-frontend>`_
-* `Centreon Syslog Server <http://forge.centreon.com/projects/centreon-syslog-server>`_
-* `Centreon Syslog CLAPI <http://forge.centreon.com/projects/centreon-syslog-clapi>`_
+* `Centreon Syslog Frontend <https://github.com/centreon/centreon-syslog-frontend>`_
+* `Centreon Syslog Server <https://github.com/centreon/centreon-syslog-server>`_
 
 The Centreon Syslog Frontend module is the graphic user interface of the project 
 Centreon Syslog for Centreon local server. This interface allows to configure 
