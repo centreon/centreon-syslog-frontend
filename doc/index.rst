@@ -6,9 +6,6 @@
 Welcome to Centreon Syslog Frontend's documentation!
 ====================================================
 
-.. image:: /_static/images/LogoCentreon-Syslog-400x91.jpg
-   :align: center
-
 The `Centreon Syslog project <http://forge.centreon.com/projects/centreon-syslog>`_ consists of several parts:
 
 * `Centreon Syslog Frontend <http://forge.centreon.com/projects/centreon-syslog-frontend>`_
