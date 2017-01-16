@@ -6,7 +6,7 @@
 Welcome to Centreon Syslog Frontend's documentation!
 ====================================================
 
-The `Centreon Syslog project <http://forge.centreon.com/projects/centreon-syslog>`_ consists of several parts:
+The Centreon Syslog project consists of several parts:
 
 * `Centreon Syslog Frontend <https://github.com/centreon/centreon-syslog-frontend>`_
 * `Centreon Syslog Server <https://github.com/centreon/centreon-syslog-server>`_
